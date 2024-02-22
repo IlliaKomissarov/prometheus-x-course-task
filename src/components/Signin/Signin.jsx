@@ -37,7 +37,7 @@ export default function Signin() {
           <input
             className="sign-in-input"
             type="text"
-            placeholder="type Username"
+            placeholder="type your Username"
             id="username"
             name="username"
             onChange={handleChange}
