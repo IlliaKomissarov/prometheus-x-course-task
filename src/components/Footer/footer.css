@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  height: 80px;
+  background-color: #222;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer-container {
+  font-weight: 500;
+  color: rgb(190, 11, 203);
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7b7bff;
+}
+
+.link:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}

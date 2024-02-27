@@ -1,0 +1,135 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #222;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cart-book-container {
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #222;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cart-book-container * {
+    color: #f90;
+}
+
+.cart-book-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-image-container {
+    height: 100px;
+    width: 75px;
+    margin-right: 20px;
+}
+
+.cart-image-container>img {
+    height: 100%;
+    width: 100%;
+}
+
+.cart-book-title {
+    width: 300px;
+}
+
+.cart-book-price-for-one {
+    width: 200px;
+}
+
+.cart-book-price {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.purchase-container {
+    font-weight: bold;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.purchase-container>p {
+    color: #f90;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.purchase-container>button {
+    background-color: #f60;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.purchase-container>button:disabled {
+    background-color: rgba(255, 123, 0, 70%);
+}
+
+.purchase-container>button:hover {
+    background-color: #f50;
+}
+
+.cart-empty {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-empty>img {
+    height: 150px;
+}
+
+.cart-empty>p {
+    color: #f90;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .cart-container {
+        padding: 10px;
+    }
+
+    .cart-image-container {
+        display: none;
+    }
+
+    .cart-book-container>* {
+        font-size: 12px;
+    }
+
+    .cart-book-title {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .cart-book-price-for-one {
+        display: none;
+    }
+
+    .cart-book-price {
+        width: 80px;
+    }
+}

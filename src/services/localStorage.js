@@ -1,7 +1,7 @@
 const LS_KEYS = {
-  USERNAME: 'username',
-  CART: 'cart',
-  LOGGEDIN: 'loggedIn',
+  USERNAME: "username",
+  CART: "cart",
+  LOGGEDIN: "loggedIn",
 };
 
 class LocalStorageService {

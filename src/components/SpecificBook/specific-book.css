@@ -1,0 +1,257 @@
+.specific-book {
+  margin: 20px;
+}
+
+.navigate-link {
+  width: fit-content;
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 40px;
+  border: none;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: color 0.3s;
+}
+
+.navigate-link:hover {
+  cursor: pointer;
+  color: #a1a1af;
+  text-decoration: underline;
+}
+
+.specific-book-container {
+  display: grid;
+  padding: 0 50px;
+  grid-template:
+    'image info price'
+    'description description none';
+  grid-template-columns: 300px 1fr 1fr;
+}
+
+.specific-book-image-container {
+  width: fit-content;
+  height: 330px;
+  grid-area: image;
+  border: 1px solid #000000;
+}
+
+.specific-book-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.specific-book-info {
+  grid-area: info;
+  padding-right: 30px;
+}
+
+.specific-book-info * {
+  color: #000000;
+}
+
+.specific-book-title {
+  color: #212121;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px #7a7a7a;
+}
+
+.specific-book-info > p,
+span {
+  font-size: 20px;
+}
+
+b {
+  color: #7e4013;
+  font-weight: bold;
+}
+
+.specific-book-price-form {
+  background-color: #fffaf1;
+  grid-area: price;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+.specific-book-price-form * {
+  color: #777472;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.specific-book-price-form-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.specific-book-count-price {
+  width: 50px;
+  height: 25px;
+  border: 2px solid #000;
+  text-align: center;
+  color: #282624;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.add-to-cart-input {
+  background-color: #d5c925;
+  color: #fff;
+  margin-top: 120px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  align-self: end;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.add-to-cart-input:hover {
+  background-color: #7bff00;
+}
+
+.specific-book-description-container {
+  grid-area: description;
+  padding-top: 80px;
+}
+
+.specific-book-description-container > h3 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #1d1d1d;
+  font-weight: bold;
+  text-shadow: 1px 1px #c1c1c1;
+}
+
+.specific-book-description-container > p {
+  color: #101010;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .specific-book-container {
+    padding: 0 20px;
+    grid-template:
+      'image'
+      'info'
+      'description'
+      'price';
+  }
+
+  .specific-book-image-container {
+    justify-self: center;
+  }
+
+  .specific-book-info {
+    margin-bottom: 30px;
+  }
+
+  .specific-book-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .specific-book-description-container {
+    padding: 15px;
+    background-color: #ffe2bd;
+    margin-bottom: 30px;
+  }
+
+  .specific-book-description-container > h3 {
+    margin-top: 0;
+    font-size: 26px;
+  }
+
+  .specific-book-description-container > p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .specific-book-container {
+    padding: 0 30px;
+    grid-template:
+      'image info'
+      'description description'
+      'price price';
+  }
+
+  .specific-book-image-container {
+    height: 250px;
+  }
+
+  .specific-book-info {
+    padding-left: 30px;
+  }
+
+  .specific-book-title {
+    font-size: 18px;
+  }
+
+  .specific-book-info > p {
+    font-size: 14px;
+  }
+
+  .specific-book-description-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffe2bd;
+  }
+
+  .specific-book-description-container > h3 {
+    margin-top: 0;
+  }
+
+  .specific-book-description-container > p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .specific-book-image-container {
+    width: fit-content;
+    height: 280px;
+  }
+
+  .specific-book-title {
+    font-size: 22px;
+  }
+
+  .specific-book-info > p {
+    font-size: 14px;
+  }
+
+  .specific-book-price-form * {
+    font-size: 16px;
+  }
+
+  .add-to-cart-input {
+    margin-top: 80px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .specific-book-description-container {
+    padding-top: 70px;
+  }
+
+  .specific-book-description-container > h3 {
+    font-size: 26px;
+  }
+
+  .specific-book-description-container > p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+}

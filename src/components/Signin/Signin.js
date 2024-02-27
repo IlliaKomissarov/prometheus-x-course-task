@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { LocalStorageService, LS_KEYS } from '../../services/localStorage';
 import { Navigate, useNavigate } from 'react-router-dom';
+import '../Signin/signin.css';
 
 export default function Signin() {
   const [disabled, setDisabled] = useState(true);
@@ -28,7 +29,7 @@ export default function Signin() {
     return (
       <main className="sign-in">
         <div className="avatar-container">
-          <img alt="Avatar" src={require('../../img/avatar2.png')} />
+          <img alt="Avatar" src={require('../../media/images/avatar2.png')} />
         </div>
         <form className="sign-in-container">
           <label className="sign-in-label" htmlFor="username">
@@ -37,7 +38,7 @@ export default function Signin() {
           <input
             className="sign-in-input"
             type="text"
-            placeholder="Type your username here..."
+            placeholder="Type your Username here..."
             id="username"
             name="username"
             onChange={handleChange}
@@ -47,7 +48,7 @@ export default function Signin() {
             disabled={disabled}
             onClick={handleClick}
           >
-            Sign-in
+            Sign in
           </button>
         </form>
       </main>
