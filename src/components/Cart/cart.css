@@ -63,14 +63,14 @@
 }
 
 .purchase-container>p {
-    color: #f90;
+    color: rgb(241, 222, 193);
     font-size: 20px;
     margin-right: 50px;
 }
 
 .purchase-container>button {
-    background-color: #f60;
-    color: white;
+    background-color: rgb(188, 168, 155);
+    color: rgb(231, 210, 210);
     border: none;
     transition: background-color 0.3s;
     border-radius: 10px;
@@ -82,11 +82,11 @@
 }
 
 .purchase-container>button:disabled {
-    background-color: rgba(255, 123, 0, 70%);
+    background-color: rgba(184, 91, 4, 0.7);
 }
 
 .purchase-container>button:hover {
-    background-color: #f50;
+    background-color: rgb(113, 55, 26);
 }
 
 .cart-empty {
