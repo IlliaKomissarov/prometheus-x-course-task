@@ -29,9 +29,12 @@
 .brand {
   font-size: 30px;
   color: #6e6767;
-  text-shadow: 1px 1px #ffffff;
   margin-left: auto;
   margin-right: auto;
+  color: #fff;
+  font-family: 'freight-big-pro';
+  font-weight: normal;
+  overflow-wrap: break-world;
 }
 
 .right-container {
