@@ -44,7 +44,7 @@
   border-radius: 5px;
   text-align: center;
   transition: 0.3s all;
-  color: rgb(0, 0, 0);
+  color: rgb(3, 3, 3);
   font-weight: 700;
   font-size: 15px;
 }
@@ -58,12 +58,12 @@
   width: 200px;
   height: 30px;
   padding: 5px;
-  background-color: #1ad40a;
+  background-color: #24c016;
   color: #ffffff;
   font-weight: 400;
   border: 2px solid #7e7e7e;
   border-radius: 5px;
-  transition: 0.5s all;
+  transition: 0.6s all;
 }
 
 .sign-in-button:disabled {
