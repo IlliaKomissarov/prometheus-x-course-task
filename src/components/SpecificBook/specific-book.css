@@ -115,7 +115,7 @@ b {
 }
 
 .add-to-cart-input:hover {
-  background-color: #7bff00;
+  background-color: #76ef04;
 }
 
 .specific-book-description-container {
@@ -132,7 +132,7 @@ b {
 }
 
 .specific-book-description-container > p {
-  color: #101010;
+  color: #262626;
   font-size: 22px;
   margin-top: 0;
 }
