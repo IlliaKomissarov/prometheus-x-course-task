@@ -1,5 +1,5 @@
 * {
-  color: #f0f0f0;
+  color: #eaeaea;
   font-family: 'Arial', sans-serif;
 }
 
@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: row;
   height: 80px;
-  background-color: #222;
+  background-color: #353131;
   border-bottom: 3px solid;
   margin-bottom: 20px;
   border-image: linear-gradient(
