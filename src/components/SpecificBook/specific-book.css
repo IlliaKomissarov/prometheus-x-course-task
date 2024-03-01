@@ -5,13 +5,13 @@
 .navigate-link {
   width: fit-content;
   display: block;
-  font-size: 18px;
+  font-size: 19px;
   padding: 5px;
   margin-bottom: 40px;
   border: none;
   font-weight: 600;
-  color: #1a1a1a;
-  transition: color 0.3s;
+  color: #0b0b0b;
+  transition: color 0.4s;
 }
 
 .navigate-link:hover {
@@ -34,6 +34,7 @@
   height: 330px;
   grid-area: image;
   border: 1px solid #000000;
+  border-radius: 3px;
 }
 
 .specific-book-image {
@@ -44,7 +45,7 @@
 
 .specific-book-info {
   grid-area: info;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 
 .specific-book-info * {
@@ -53,7 +54,7 @@
 
 .specific-book-title {
   color: #212121;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   text-shadow: 1px 1px #7a7a7a;
 }
