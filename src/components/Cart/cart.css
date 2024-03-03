@@ -109,7 +109,7 @@
 
 @media (max-width: 767px) {
     .cart-container {
-        padding: 10px;
+        padding: 11px;
     }
 
     .cart-image-container {
@@ -122,7 +122,7 @@
 
     .cart-book-title {
         width: 250px;
-        margin-right: 20px;
+        margin-right: 22px;
     }
 
     .cart-book-price-for-one {
