@@ -4,20 +4,20 @@
   background-color: #222;
   justify-content: center;
   align-items: center;
-  border-top: 3px solid;
+  border-top: 2px solid;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .footer-container {
-  font-weight: 500;
-  color: rgb(190, 11, 203);
+  font-weight: 600;
+  color: rgb(155, 11, 165);
 }
 
 .link {
   text-decoration: none;
   font-weight: bold;
-  color: #1717bb;
+  color: #2525a3;
 }
 
 .link:hover {
