@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      <h1 className="brand">X-course task / Komissarov Illia</h1>
+      <h1 className="brand">X-course task / by Komissarov Illia</h1>
       {LocalStorageService.get('username') ? (
         <div className="right-container">
           <Link className="cart" to="/cart">
