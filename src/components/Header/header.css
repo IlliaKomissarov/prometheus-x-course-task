@@ -38,7 +38,7 @@
 
 .right-container {
   display: flex;
-  width: 350px;
+  width: 360px;
   justify-content: space-around;
   align-items: center;
 }
